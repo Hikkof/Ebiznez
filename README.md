@@ -5,7 +5,7 @@ Zadanie 1 Docker<br />
 ❌ 4.0 do powyższego należy dodać najnowszego Gradle’a oraz paczkę JDBC SQLite w ramach projektu na Gradle (build.gradle)<br />
 ❌ 4.5 stworzyć przykład typu HelloWorld oraz uruchomienie aplikacji przez CMD oraz gradle<br />
 ❌ 5.0 dodać konfigurację docker-compose<br />
-Kod: Docker<br />
+Plik: Docker<br />
 <br />
 Zadanie 2 Scala<br />
 ✅ 3.0 Należy stworzyć kontroler do Produktów<br />
@@ -13,7 +13,7 @@ Zadanie 2 Scala<br />
 ❌ 4.0 Należy stworzyć kontrolery do Kategorii oraz Koszyka + endpointy zgodnie z CRUD<br />
 ❌ 4.5 Należy aplikację uruchomić na dockerze (stworzyć obraz) oraz dodać skrypt uruchamiający aplikację via ngrok (nie podawać tokena ngroka w gotowym rozwiązaniu)<br />
 ❌ 5.0 Należy dodać konfigurację CORS dla dwóch hostów dla metod CRUD<br />
-Kod: Scala<br />
+Plik: Scala<br />
 <br />
 Zadanie 3 Kotlin<br />
 ✅ 3.0 Należy stworzyć aplikację kliencką w Kotlinie we frameworku Ktor, która pozwala na przesyłanie wiadomości na platformę Discord<br />
@@ -21,4 +21,4 @@ Zadanie 3 Kotlin<br />
 ❌ 4.0 Zwróci listę kategorii na określone żądanie użytkownika<br />
 ❌ 4.5 Zwróci listę produktów wg żądanej kategorii<br />
 ❌ 5.0 Aplikacja obsłuży dodatkowo jedną z platform: Slack, Messenger, Webex<br />
-Kod: Kotlin<br />
+Plik: Kotlin<br />
