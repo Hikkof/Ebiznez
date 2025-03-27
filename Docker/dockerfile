@@ -1,0 +1,8 @@
+FROM ubuntu:24.04
+
+ENV TZ=Europe/Warsaw
+
+RUN apt-get update && apt-get upgrade -y
+RUN apt-get install python3-pip -y
+
+CMD /bin/bash
