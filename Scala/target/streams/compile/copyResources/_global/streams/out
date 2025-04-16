@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/root/play/why/conf/routes,/root/play/why/target/scala-2.13/classes/routes)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/root/play/why/conf/application.conf,/root/play/why/target/scala-2.13/classes/application.conf)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/root/play/why/conf/messages,/root/play/why/target/scala-2.13/classes/messages)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/root/play/why/conf/logback.xml,/root/play/why/target/scala-2.13/classes/logback.xml)[0m

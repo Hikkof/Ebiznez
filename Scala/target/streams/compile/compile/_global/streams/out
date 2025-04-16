@@ -1,0 +1,16 @@
+[0m[[0m[33mwarn[0m] [0m[0m/root/play/why/app/controllers/ProductController.scala:40:41: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method index,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[33mwarn[0m] [0m[0m      Redirect(routes.ProductController.index)[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                        ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/play/why/app/controllers/ProductController.scala:41:51: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method index,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[33mwarn[0m] [0m[0m    }.getOrElse(Redirect(routes.ProductController.index))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0m/root/play/why/app/controllers/ProductController.scala:68:51: Auto-application to `()` is deprecated. Supply the empty argument list `()` explicitly to invoke method index,[0m
+[0m[[0m[33mwarn[0m] [0m[0mor remove the empty argument list from its definition (Java-defined methods are exempt).[0m
+[0m[[0m[33mwarn[0m] [0m[0mIn Scala 3, an unapplied method like this will be eta-expanded into a function. [quickfixable][0m
+[0m[[0m[33mwarn[0m] [0m[0m    }.getOrElse(Redirect(routes.ProductController.index))[0m
+[0m[[0m[33mwarn[0m] [0m[0m                                                  ^[0m
+[0m[[0m[33mwarn[0m] [0m[0mthree warnings found[0m
