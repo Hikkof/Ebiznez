@@ -10,6 +10,11 @@ import (
 func main() {
 	storage.InitializeDataBase()
 
+	const userId = "/user/:id"
+	const cartId = "/cart/:id"
+	const categoryId = "/category/:id"
+	const m5Id = "/m5/:id"
+
 	e := echo.New()
 	//products
 	e.GET("/product/:id", controllers.GetProduct)
@@ -18,26 +23,26 @@ func main() {
 	e.PUT("/product", controllers.UpdateProduct)
 	e.DELETE("/delete_product/:id", controllers.DeleteProduct)
 	//user
-	e.GET("/user/:id", controllers.GetUser)
+	e.GET(userId, controllers.GetUser)
 	e.GET("/users", controllers.GetUsers)
 	e.POST("/user", controllers.CreateUser)
-	e.PUT("/user/:id", controllers.UpdateUser)
-	e.DELETE("/user/:id", controllers.DeleteUser)
+	e.PUT(userId, controllers.UpdateUser)
+	e.DELETE(userId, controllers.DeleteUser)
 	//cart
-	e.GET("/cart/:id", controllers.GetCart)
+	e.GET(cartId, controllers.GetCart)
 	e.POST("/cart", controllers.CreateCart)
-	e.PUT("/cart/:id", controllers.UpdateCart)
-	e.DELETE("/cart/:id", controllers.DeleteCart)
+	e.PUT(cartId, controllers.UpdateCart)
+	e.DELETE(cartId, controllers.DeleteCart)
 	//category
-	e.GET("/cart/:id", controllers.GetCategory)
-	e.POST("/cart", controllers.CreateCategory)
-	e.PUT("/cart/:id", controllers.UpdateCategory)
-	e.DELETE("/cart/:id", controllers.DeleteCategory)
+	e.GET(categoryId, controllers.GetCategory)
+	e.POST("/category", controllers.CreateCategory)
+	e.PUT(categoryId, controllers.UpdateCategory)
+	e.DELETE(categoryId, controllers.DeleteCategory)
 	//m5
-	e.GET("/cart/:id", controllers.GetM5)
-	e.POST("/cart", controllers.CreateM5)
-	e.PUT("/cart/:id", controllers.UpdateM5)
-	e.DELETE("/cart/:id", controllers.DeleteM5)
+	e.GET(m5Id, controllers.GetM5)
+	e.POST("/m5", controllers.CreateM5)
+	e.PUT(m5Id, controllers.UpdateM5)
+	e.DELETE(m5Id, controllers.DeleteM5)
 
 	e.GET("/", func(c echo.Context) error {
 		return c.String(http.StatusOK, "Hello, World!")
