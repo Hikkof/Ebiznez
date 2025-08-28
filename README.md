@@ -53,4 +53,5 @@ Zadanie 7 Sonar<br />
 ❌ Należy wyeliminować wszystkie zapaszki w kodzie w Sonarze (kod aplikacji serwerowej)<br />
 ❌ Należy wyeliminować wszystkie podatności oraz błędy bezpieczeństwa w kodzie w Sonarze (kod aplikacji serwerowej)<br />
 ❌ Należy wyeliminować wszystkie błędy oraz zapaszki w kodzie aplikacji klienckiej<br />
-Plik: Kotlin<br />
+Projekt aplikacji klienckiej: https://github.com/Hikkof/Sonar-Frontend<br />
+Projekt aplikacji serwerowej : https://github.com/Hikkof/Sonar-Backend<br />
